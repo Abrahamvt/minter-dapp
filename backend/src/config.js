@@ -57,21 +57,21 @@ const OWNER_ADDRESS = '0xeB26711c23169578D76F21Da09CFC44Ee972FbC2';
 const TREASURY_ADDRESS = '0xeB26711c23169578D76F21Da09CFC44Ee972FbC2';
 const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.035; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 6; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-10-26T12:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xeB26711c23169578D76F21Da09CFC44Ee972FbC2"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xeB26711c23169578D76F21Da09CFC44Ee972FbC2"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x4c97a5b0EB49d85C94b6162Af831Be1aBb07BaE9"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -95,12 +95,12 @@ try {
 
 const solanaMetadata = {
   symbol: "BWB",
-  seller_fee_basis_points: 750, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://brawlybears.com",
   creators: [
     {
       address: "0xeB26711c23169578D76F21Da09CFC44Ee972FbC2",
-      share: 100,
+      share: 500,
     },
   ],
 };
