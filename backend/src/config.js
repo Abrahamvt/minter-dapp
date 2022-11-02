@@ -13,9 +13,9 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 200,
     layersOrder: [
-      { name: "Background" },
+//      { name: "Background" },
       { name: "Body" },
       { name: "Belly" },
       { name: "Symbol" },
@@ -33,8 +33,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1600,
-  height: 1600,
+  width: 600,
+  height: 600,
   smoothing: false,
 };
 
@@ -130,7 +130,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
