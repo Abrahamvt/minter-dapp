@@ -224,7 +224,7 @@ p {
 /* End Header section */
 /* Hero Section */
 #hero {
-	background-image: url(../images/body/hero-bg.png);
+	background-image: url(../images/body/hero-bg.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -289,7 +289,7 @@ p {
 /* End Hero Section */
 
 #mint {
-	background-image: url(../images/body/hero-bg2.png);
+	background-image: url(../images/body/hero-bg2.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -602,7 +602,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(images/body/hero-bg2.png);
+	background-image: url(images/body/hero-bg2.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -638,7 +638,7 @@ p {
 /* End Services Section */
 /* Projects section */
 #projects {
-	background-image: url(images/body/hero-bg2.png);
+	background-image: url(images/body/hero-bg2.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
