@@ -256,8 +256,8 @@ p {
 	justify-content: flex-start;
 }
 #hero h2 {
-	padding: 0 auto;
-	font-size: 2rem;
+	padding: 0 10px;
+	font-size: 1rem;
 	color: white;
 }
 
