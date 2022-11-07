@@ -13,9 +13,9 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 10000,
     layersOrder: [
-//      { name: "Background" },
+      { name: "Background" },
       { name: "Body" },
       { name: "Belly" },
       { name: "Symbol" },
@@ -33,13 +33,13 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 600,
-  height: 600,
+  width: 1600,
+  height: 1600,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://brawlybears.com", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://brawlybears.io", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -47,7 +47,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 10; // Your API key rate limit
-const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
+const CHAIN = 'ethereum'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'BRAWLY BEARS';
@@ -71,7 +71,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xeB26711c23169578D76F21Da09CFC44Ee972FbC2"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x4c97a5b0EB49d85C94b6162Af831Be1aBb07BaE9"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x8F0306eA33d90f1fD69E0AAF57BBe30A0D8Aa0E0"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -96,7 +96,7 @@ try {
 const solanaMetadata = {
   symbol: "BWB",
   seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://brawlybears.com",
+  external_url: "https://brawlybears.io",
   creators: [
     {
       address: "0xeB26711c23169578D76F21Da09CFC44Ee972FbC2",

@@ -1,5 +1,5 @@
-const contractAddress = "0x4c97a5b0EB49d85C94b6162Af831Be1aBb07BaE9"; // Replace with your own contract address
-const chain = 'goerli'; // goerli, polygon, or ethereum
+const contractAddress = "0x8F0306eA33d90f1fD69E0AAF57BBe30A0D8Aa0E0"; // Replace with your own contract address
+const chain = 'ethereum'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Brawly Bears NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
