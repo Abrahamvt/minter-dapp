@@ -645,6 +645,13 @@ p {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
+#services .service-item h3 {
+	font-size: 1.3rem;
+	font-weight: 1000;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: white;
+}
 #services .service-item p {
 	color: white;
 	text-align: left;
@@ -713,6 +720,12 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
+}
+#projects .project-info h3 {
+	font-size: 1.4rem;
+	font-weight: 500;
+	margin-top: 10px;
+	
 }
 #projects .project-info p {
 	color: white;
