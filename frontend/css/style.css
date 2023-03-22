@@ -585,30 +585,30 @@ p {
 
 
 
-/* Services Section */
-#services .services {
+/* roadmap Section */
+#roadmap .roadmap {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#services .service-top {
+#roadmap .roadmap-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#services .service-top p {
+#roadmap .roadmap-top p {
 	color: black;
 	font-size: 2rem;
 }
-#services .service-bottom {
+#roadmap .roadmap-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#services .service-item {
+#roadmap .roadmap-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -623,7 +623,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#services .service-item::after {
+#roadmap .roadmap-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -634,29 +634,90 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#roadmap .roadmap-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#services .service-item h2 {
+#roadmap .roadmap-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#services .service-item h3 {
+#roadmap .roadmap-item h3 {
 	font-size: 1.3rem;
 	font-weight: 1000;
 	margin-top: 10px;
 	text-transform: uppercase;
 	color: white;
 }
-#services .service-item p {
+#roadmap .roadmap-item p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* End roadmap Section */
+/* about Section */
+#about .about {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	/*margin: 0 auto;*/
+	padding: 100px 0;
+	margin-top: -140px;
+	margin-bottom: -100px;
+}
+#about .about-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#about .about-item {
+	flex-basis: 85%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(images/body/hero-bg2.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#about .about-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#about .about-item .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#about .about-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	
+}
+#about .about-item p {
+	color: white;
+	text-align: justify;
+	text-indent: 10px;
+}
+/* End about Section */
 /* Projects section */
 #projects {
 	background-image: url(images/body/hero-bg2.jpg);
@@ -753,26 +814,26 @@ p {
 	transform: scale(1.1);
 }
 /* End Projects section */
-/* About Section */
-#about .about-header h1 {
+/* team Section */
+#team .team-header h1 {
 	margin-bottom: 10px;
 }
-#about .about {
+#team .team {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1920px;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-#about .col-left {
+#team .col-left {
 	width: 250px;
 	height: 360px;
 }
-#about .col-right {
+#team .col-right {
 	width: 40%;
 	margin-top: 20px;
 }
-#about .col-right h3 {
+#team .col-right h3 {
 	font-size: 2rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
@@ -781,30 +842,30 @@ p {
 	text-transform: uppercase;
 	text-align: center;
 }
-#about .col-right h2 {
+#team .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 	text-align: center;
 }
-#about .col-right p {
+#team .col-right p {
 	margin-bottom: 20px;
 	text-align: center;
 }
-#about .col-right .cta {
+#team .col-right .cta {
 	color: black;
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
 }
-#about .col-left .about-img {
+#team .col-left .team-img {
 	height: 100%;
 	width: 100%;
 	position: relative;
 	border: 10px solid white;
 }
-#about .col-left .about-img::after {
+#team .col-left .team-img::after {
 	content: '';
 	position: absolute;
 	left: -33px;
@@ -814,7 +875,7 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-/* End About Section */
+/* End team Section */
 /* Footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -910,12 +971,12 @@ p {
 		max-width: 80%; 
 	}
 	/* End mint */
-	/* Services Section */
-	#services .service-bottom .service-item {
+	/* roadmap Section */
+	#roadmap .roadmap-bottom .roadmap-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
+	/* End roadmap Section */
 
 	/* Project */
 	#projects .project-item {
@@ -938,30 +999,30 @@ p {
 	}
 	/* End Project */
 
-	/* About */
-	#about .about {
+	/* team */
+	#team .team {
 		flex-direction: row;
 	}
-	#about .col-left {
+	#team .col-left {
 		width: 600px;
 		height: 400px;
 		padding-left: 60px;
 	}
-	#about .about .col-left .about-img::after {
+	#team .team .col-left .team-img::after {
 		left: -45px;
 		top: 34px;
 		height: 98%;
 		width: 98%;
 		border: 10px solid crimson;
 	}
-	#about .col-right {
+	#team .col-right {
 		text-align: left;
 		padding: 30px;
 	}
-	#about .col-right h1 {
+	#team .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
+	/* End team */
 
 	/* contact  */
 	#contact .contact {
@@ -1025,7 +1086,7 @@ p {
 	#mint .not-connected{
 		max-width: 60%; 
 	}
-	#services .service-bottom .service-item {
+	#roadmap .roadmap-bottom .roadmap-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
