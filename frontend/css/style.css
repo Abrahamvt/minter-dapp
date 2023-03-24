@@ -813,9 +813,83 @@ p {
 	transform: scale(1.1);
 }
 /* End Projects section */
+/* benefits Section */
+#benefits .benefits {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+	margin-bottom: -50px;
+}
+#benefits .benefits-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#benefits .benefits-top p {
+	color: black;
+	font-size: 2rem;
+}
+#benefits .benefits-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#benefits .benefits-item {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(images/body/hero-bg2.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#benefits .benefits-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#benefits .benefits-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#benefits .benefits-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#benefits .benefits-item h3 {
+	font-size: 1.3rem;
+	font-weight: 1000;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: white;
+}
+#benefits .benefits-item p {
+	color: white;
+	text-align: left;
+}
+/* End benefits Section */
 /* team Section */
 #team .team-header h1 {
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: -40px;
 }
 #team .team {
 	flex-direction: column;
@@ -823,6 +897,8 @@ p {
 	max-width: 1920px;
 	margin: 0 auto;
 	padding: 100px 20px;
+	margin-bottom: -60px;
+
 }
 #team .col-left {
 	width: 250px;
