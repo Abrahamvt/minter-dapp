@@ -3,7 +3,7 @@ const chain = 'ethereum'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Brawly Bears NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Welcome to the Brawly Bears world, meet each of these fighting bears ready to brawl in the metaverse. 10 000 bears join the fight, who will rise victorious?';
+const welcome_p = 'Welcome to the Brawly Bears world, meet each of these fighting bears ready to brawl in the metaverse. 10 000 bears join the fight, who will rise victorious?'+'<br>'+'(Connect your MetaMask wallet to see the Minting Menu)';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
