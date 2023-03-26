@@ -785,14 +785,17 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 	margin-top: -150px;
-	margin-bottom: -150px;
+	/*margin-bottom: -150px;*/
 }
 #instructions .instructions-header h1 {
 	margin-bottom: 40px;
 }
 #instructions .instructions-image {
 	position: relative;
-	max-width: 380px;
+	margin: auto;
+	display: block;
+	max-width: 390px;
+	margin-top: 40px;
 }
 /* End instructions section */
 /* benefits Section */
