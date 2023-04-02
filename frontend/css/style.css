@@ -384,8 +384,8 @@ p {
 	margin: 0 auto; /* Center the container horizontally */
 }
 #projects .projects-image img{
-	width: 95%; /* Set the width of the image to 95% of its container */
-	max-width: 100%; /* Set the maximum width of the image to 100% of its container */
+	width: 101%; /* Set the width of the image to 95% of its container */
+	max-width: 101%; /* Set the maximum width of the image to 100% of its container */
 }
 /* End Projects section */
 /* roadmap Section */
