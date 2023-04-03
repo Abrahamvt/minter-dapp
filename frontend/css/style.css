@@ -350,7 +350,7 @@ p {
 }
 #about .about-item p {
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.5rem;/*optional*/
 	text-align: justify;
 	text-indent: 10px;
 }
@@ -384,8 +384,8 @@ p {
 	margin: 0 auto; /* Center the container horizontally */
 }
 #projects .projects-image img{
-	width: 101%; /* Set the width of the image to 95% of its container */
-	max-width: 101%; /* Set the maximum width of the image to 100% of its container */
+	width: 100%; /* Set the width of the image to 95% of its container */
+	max-width: 100%; /* Set the maximum width of the image to 100% of its container */
 }
 /* End Projects section */
 /* roadmap Section */
@@ -420,8 +420,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(images/body/hero-bg2.jpg);
-	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
@@ -435,7 +433,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
+	/*opacity: 0.9;*/
 	z-index: -1;
 }
 #roadmap .roadmap-bottom .icon {
@@ -463,12 +461,14 @@ p {
 	text-indent: 10px;
 }
 #roadmap p span {
-	color: rgb(0, 17, 255);
+	color: rgb(39, 123, 249);
 	font-size: 1.6rem;
+	font-weight: bold;
 }
 /* End roadmap Section */
+
 /* benefits Section */
-#benefits .benefits {
+/*#benefits .benefits {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
@@ -499,8 +499,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(images/body/hero-bg2.jpg);
-	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
@@ -513,9 +511,15 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
-	z-index: -1;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+	/*opacity: 0.9;*/
+	/*z-index: -1;
+}
+#benefits .benefits-bottom {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
 }
 #benefits .benefits-bottom .icon {
 	height: 80px;
@@ -534,6 +538,11 @@ p {
 	text-align: justify;
 	text-indent: 10px;
 }
+#benefits p span {
+	color: rgb(39, 123, 249);
+	font-size: 1.6rem;
+	font-weight: bold;
+}*/
 /* End benefits Section */
 /*mint section*/
 #mint {
@@ -849,12 +858,11 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(images/body/hero-bg2.jpg);
-	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	max-width: 400px;
 }
 #instructions .instructions-item::after {
 	content: '';
@@ -864,7 +872,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
+	/*opacity: 0.9;*/
 	z-index: -1;
 }
 #instructions .instructions-bottom .icon {
@@ -892,8 +900,9 @@ p {
 	text-indent: 10px;
 }
 #instructions p span {
-	color: rgb(0, 17, 255);
+	color: rgb(39, 123, 249);
 	font-size: 1.6rem;
+	font-weight: bold;
 }
 /* End roadmap Section */
 
@@ -971,6 +980,7 @@ p {
 	flex-direction: column;
 	padding-top: 50px;
 	padding-bottom: 10px;
+	justify-content: center;
 }
 #footer h2 {
 	color: white;
